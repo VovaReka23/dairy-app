@@ -1,0 +1,28 @@
+.button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  &.add {
+    color: #fff;
+    background: #27ccc0;
+    font-weight: 700;
+    &:hover {
+      background:#1e9c93;
+    }
+  }
+  &.del{
+    font-weight: 300;
+    color: #ff305a;
+    border: 1px solid #ff305a;
+    &:hover {
+      background-color: #ff305a;
+      color: #fff;
+    }
+  }
+}
+
