@@ -1,8 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from '../assets/scss/Textarea.module.scss';
 const Textarea = ({ onKeyPress }) => {
   return (
-    <textarea onKeyPress={(e) => onKeyPress(e)} className={styles.textarea} name="text"></textarea>
+    <textarea onKeyPress={onKeyPress} className={styles.textarea} name="text"></textarea>
   )
+}
+Textarea.propTypes = {
+  onKeyPress: PropTypes.func
 }
 export default Textarea;

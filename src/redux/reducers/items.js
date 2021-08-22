@@ -12,17 +12,20 @@ const initialState = {
 		text: 'Second item is active',
 		countComent: 0,
 	}],
+
 }
 
 const items = (state = initialState, action) => {
 	switch (action.type) {
-		case 'GET_ITEMS':
-			const itemsLocalSt = JSON.parse(localStorage.getItem('items'));
+		case 'GET_ITEMS': {
+			const items = JSON.parse(localStorage.getItem('items'));
 			return {
 				...state,
-				items: itemsLocalSt,
+				items: items,
 			};
-		case 'ADD_ITEM':
+		}
+
+		case 'ADD_ITEM': {
 			const newItem = {
 				id: Date.now(),
 				countComent: 0,
@@ -34,6 +37,8 @@ const items = (state = initialState, action) => {
 				...state,
 				items: items,
 			};
+		}
+		
 		case 'ACTIVE_ITEM': {
 			const item = state.items.map((item) => {
 				if (item.id === action.payload) {
@@ -50,7 +55,6 @@ const items = (state = initialState, action) => {
 			};
 		}
 
-
 		case 'REMOVE_ITEM': {
 			const newItemFilter = state.items.filter((item) => item.id !== action.payload)
 			localStorage.setItem('items', JSON.stringify(newItemFilter));
@@ -59,6 +63,7 @@ const items = (state = initialState, action) => {
 				items: newItemFilter,
 			};
 		}
+
 		default:
 			return state
 	}
