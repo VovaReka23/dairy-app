@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vending-machine/static/css/main.261a7218.chunk.css",
-    "main.js": "/vending-machine/static/js/main.5628420e.chunk.js",
-    "main.js.map": "/vending-machine/static/js/main.5628420e.chunk.js.map",
-    "runtime-main.js": "/vending-machine/static/js/runtime-main.3983742c.js",
-    "runtime-main.js.map": "/vending-machine/static/js/runtime-main.3983742c.js.map",
-    "static/js/2.546b38fe.chunk.js": "/vending-machine/static/js/2.546b38fe.chunk.js",
-    "static/js/2.546b38fe.chunk.js.map": "/vending-machine/static/js/2.546b38fe.chunk.js.map",
-    "index.html": "/vending-machine/index.html",
-    "static/css/main.261a7218.chunk.css.map": "/vending-machine/static/css/main.261a7218.chunk.css.map",
-    "static/js/2.546b38fe.chunk.js.LICENSE.txt": "/vending-machine/static/js/2.546b38fe.chunk.js.LICENSE.txt"
+    "main.css": "/dairy-app/static/css/main.261a7218.chunk.css",
+    "main.js": "/dairy-app/static/js/main.5628420e.chunk.js",
+    "main.js.map": "/dairy-app/static/js/main.5628420e.chunk.js.map",
+    "runtime-main.js": "/dairy-app/static/js/runtime-main.729cc56f.js",
+    "runtime-main.js.map": "/dairy-app/static/js/runtime-main.729cc56f.js.map",
+    "static/js/2.546b38fe.chunk.js": "/dairy-app/static/js/2.546b38fe.chunk.js",
+    "static/js/2.546b38fe.chunk.js.map": "/dairy-app/static/js/2.546b38fe.chunk.js.map",
+    "index.html": "/dairy-app/index.html",
+    "static/css/main.261a7218.chunk.css.map": "/dairy-app/static/css/main.261a7218.chunk.css.map",
+    "static/js/2.546b38fe.chunk.js.LICENSE.txt": "/dairy-app/static/js/2.546b38fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3983742c.js",
+    "static/js/runtime-main.729cc56f.js",
     "static/js/2.546b38fe.chunk.js",
     "static/css/main.261a7218.chunk.css",
     "static/js/main.5628420e.chunk.js"
